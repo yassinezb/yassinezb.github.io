@@ -1,0 +1,114 @@
+/* body */
+
+body {
+    background: rgb(243, 243, 243);
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden
+}
+
+/* navbar */
+
+.drapeautraduction1 {
+    margin-left: 30px;
+    width: 19px;
+    height: 14px;
+}
+
+.drapeautraduction2 {
+    margin-left: 30px;
+    width: 19px;
+    height: 14px;
+    margin-right: 100px;
+}
+
+.uk-navbar-container {
+    margin-left: 200px;
+    border-bottom: solid 1px rgb(172, 172, 172);
+    }
+
+/* article */
+
+.uk-article {
+    margin-bottom: 120px;
+}
+
+p.uk-animation-scale-up {
+    color: rgb(17, 17, 17);
+}
+
+#placementarticle {
+    margin-top: 100px;
+}
+
+h1, h2, h3, h4 p {
+    color: rgb(0, 0, 0)
+}
+
+.uk-article-title {
+    color: rgb(0, 0, 0);
+}
+
+.textecentrer {
+    display: block;
+    text-align: center;
+}
+/* slider */
+
+div.placementSlider {
+    margin-top: 20px;
+}
+
+.imgpanel {
+    border: solid black 1px;
+}
+
+/* separation */
+hr.uk-divider-icon {
+    margin-top: 100px;
+}
+
+/* partie formation */
+
+p.uk-text-lead {
+    color: rgb(0, 0, 0);
+}
+
+.placementformation {
+    margin-top: 50px;
+}
+
+dt {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+}
+
+dd {
+    margin-bottom: 30px;
+    font-size: 1em;
+    color: rgb(37, 37, 37)
+}
+
+/* cards */
+
+.uk-card {
+    width: 300px;
+    height: 200px;
+}
+
+
+/* barre before footer */
+
+hr.uk-divider-small {
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+
+footer p {
+    text-align: center;
+    color: grey;
+    margin: 60px auto;
+}
