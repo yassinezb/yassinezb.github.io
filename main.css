@@ -105,6 +105,15 @@ hr.uk-divider-small {
     justify-content: center;
 }
 
+
+/* card */
+
+.uk-card {
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
 /* footer */
 
 footer p {
