@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.26/css/uikit.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.26/js/uikit.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.26/js/uikit-icons.min.js"></script>
@@ -21,36 +22,37 @@
                                         <div class="uk-navbar-dropdown">
                                             <ul class="uk-nav uk-navbar-dropdown-nav">
                                                 <li class="uk-active"><a href="#"><span uk-icon="home"></span>Menu</a></li>
-                                                <li><a href="#"><span uk-icon="icon: code"></span>Projets</a></li>
-                                                <li><a href="#"><span uk-icon="icon: bookmark"></span>Formation</a></li>
-                                                <li><a href="#"><span uk-icon="icon: bookmark"></span>Experiences</a></li>
-                                                <li><a href="#"><span uk-icon="icon: download"></span>mon cv en pdf</a></li>
+                                                <li><a href="#ancrageprojet"><span uk-icon="icon: code"></span>Projets</a></li>
+                                                <li><a href="#ancrageformation"><span uk-icon="icon: bookmark"></span>Formation</a></li>
+                                                <li><a href="#ancrageexperience"><span uk-icon="icon: bookmark"></span>Experiences</a></li>
+                                                <li><a href="pdf/cv janvier 2019.pdf" target="_blank"><span uk-icon="icon: download"></span>Mon cv en pdf</a></li>
                                             </ul>
                                         </div>
                                     </li>
-                                            <li class="uk-navbar"><a href="#">Qui suis je</a></li>
-                                            <li class="uk-navbar"><a href="#">Contact</a></li>
+                                            <li class="uk-navbar"><a href="#ancrageWho">Qui suis je</a></li>
+                                            <li class="uk-navbar"><a href="#ancrange">Contact</a></li>
                                     <li>
                                     <li>
                                 </ul>
                             </div></div>
                             <a class="uk-navbar-item" href="#"></a>
                             <div class="uk-navbar-center-right"><div>
-                            </div></div> 
+                            </div></div> <!-- 
                             <img class="drapeautraduction1" src="img/france-flag-icon-16.png" alt="">
-                            <img class="drapeautraduction2" src="img/united-kingdom-flag-icon-16.png" alt="">
+                            <img class="drapeautraduction2" src="img/united-kingdom-flag-icon-16.png" alt=""> -->
                         </div>
                     </nav>                                
             <!-- navbar fin -->
             <!-- article de presentation -->
+                 <video autoplay muted loop src="video/backgroundvideowhite.mp4"></video>
             <div id="placementarticle">
             <article class="uk-article uk-margin-large-left uk-margin-large-right uk-flex-middle ">
-
                     <h1 class="uk-article-title uk-text-center"><a class="uk-link-reset" href="">Presentation</a></h1>
-                    <p class="uk-animation-scale-up">Féru d'informatique depuis mon plus jeune âge, j'ai décidé, après avoir obtenu un BTS NRC, de me réorienter vers le <b>développement web</b>. C'est un domaine qui m'offre la possibilité d'<b>exprimer ma créativité</b>, et de satisfaire ma curiosité. J'ai débuté en tant qu'<b>autodidacte</b> pour me tourner ensuite vers une <b>formation professionnalisante</b> au Cnam pour devenir développeur d'applications web. Je suis actuellement à la recherche d'un stage en tant que développeur web junior Mars 2019 et Avril 2019.</p>
+                    <p class="uk-animation-scale-up">Féru d'informatique depuis mon plus jeune âge, j'ai décidé, après avoir obtenu un BTS NRC, de me réorienter vers le <b>développement web</b>. C'est un domaine qui m'offre la possibilité d'<b>exprimer ma créativité</b>, et de satisfaire ma curiosité. J'ai débuté en tant qu'<b>autodidacte</b> pour me tourner ensuite vers une <b>formation professionnalisante</b> au Cnam pour devenir développeur d'applications web. Je suis actuellement à <span>recherche d'un stage en tant que développeur web junior Mars 2019 et Avril 2019.</span></p>
                 </article>
                 <!-- mes projets -->
-                <div class="placementSlider uk-position-relative uk-visible-toggle uk-dark" uk-slider="clsActivated: uk-transition-active; center: true">
+                <div id="ancrageprojet"></div>
+                <div class="placementSlider uk-position-relative uk-visible-toggle uk-light" uk-slider="clsActivated: uk-transition-active; center: true">
 
                         <ul class="uk-slider-items uk-grid">
                             <li class="uk-width-3-4">
@@ -66,7 +68,7 @@
                                 <div class="uk-panel">
                                     <img class="imgpanel" src="img/JS30.png" alt="">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                                        <h3 class="uk-margin-remove">Logo du site</h3>
+                                        <h3 class="uk-margin-remove">JS30</h3>
                                         <p class="uk-margin-remove">Ici vous trouverez les projets JS30</p>
                                     </div>
                                 </div>
@@ -75,8 +77,8 @@
                                 <div class="uk-panel">
                                     <img class="imgpanel" src="img/todolist.png" alt="">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                                        <h3 class="uk-margin-remove">Bottom</h3>
-                                        <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <h3 class="uk-margin-remove">To Do List</h3>
+                                        <p class="uk-margin-remove">Ici vous trouverez la to do list que j'ai réalisé durant ma formation</p>
                                     </div>
                                 </div>
                             </li>
@@ -84,14 +86,14 @@
                                 <div class="uk-panel">
                                     <img class="imgpanel" src="img/Projet.png" alt="">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                                        <h3 class="uk-margin-remove">Bottom</h3>
+                                        <h3 class="uk-margin-remove"></h3>
                                         <p class="uk-margin-remove">Ici vous trouverez la To do list créer en formation</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="uk-width-3-4">
                                 <div class="uk-panel">
-                                    <img class="imgpanel" src="JS30.png" alt="">
+                                    <img class="imgpanel" src="img/JS30.png" alt="">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                         <h3 class="uk-margin-remove">Bottom</h3>
                                         <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -105,6 +107,7 @@
     </div>
         <!-- formation -->
        <!-- separation --> <hr class="uk-divider-icon">
+        <div id="ancrageformation"></div>
         <div class="placementformation">
                 <article class="uk-article uk-margin-large-left uk-margin-large-right uk-flex-middle ">
                         <h2 class="uk-article-title uk-text-center"><a class="uk-link-reset" href="">Formation</a></h2>
@@ -128,7 +131,7 @@
                         <p class="uk-text-lead uk-text-center">Competences</p>
                         <p>
                                 <dt>Competences acquises durant la formation:</dt>
-                                <dd>HTML5, CSS3, Javascript, Linux, Git et Github, UX design, Bootstrap, NodeJS, VueJs</dd>
+                                <p> <img class="imgLogo" src="img/logohtml.png" alt=""> <img class="imgLogo" src="img/logocss.png" alt=""> <img class="imgLogoJS" src="img/javascript_logo.png" alt=""> <img class="imgLogo" src="img/linux.png" alt="">, <img class="imgLogoGIT" src="img/GitHub-Logo.png" alt=""> <img class="imgLogo" src="img/logouiux.png" alt=""> <img class="imgLogo" src="img/bootstrap.png" alt=""> <img class="imgLogo" src="img/nodejs.png" alt=""> <img class="imgLogo" src="img/vuejs.png" alt=""></p>
         
                                 <dt>Competences acquises en autodidacte:</dt>
                                 <dd>Editeurs d'images (Photoshop, Gimp, illustrator), logiciel de video montage (sony vegas)</dd>
@@ -137,33 +140,34 @@
         </div>
         <!-- experiences--> 
         <!-- separation --> <hr class="uk-divider-icon">
+        <div id="ancrageexperience"></div>
         <div class="placementformation">
                 <article class="uk-article uk-margin-large-left uk-margin-large-right uk-flex-middle ">
-                        <h3 class="uk-article-title uk-text-center"><a class="uk-link-reset" href="">Experience</a></h3>
+                        <h3 class="uk-article-title uk-text-center"><a id="Exp" class="uk-link-reset" href="">Experience</a></h3>
                         <p class="uk-text-lead uk-text-center">Mes experiences professionnelles</p>
                         <p class="uk-animation-scale-up"><p>
                                 <p>
-                                        <dt>Interimaire Adecco :</dt> 
-                                        <dd>Manutentionnaire au Théâtre Chaillot (2017-2018) et au magasin Le Bon Marché (2018), mise en rayon Metro (2018) et Casa France (2017)</dd>
-                                    </p>
-                                    <p>
-                                        <dt>Saisonnier viticole :</dt>
-                                        <dd>Chateau Gruaud-Larose (2016-2017), Château Devise d’Ardilley (de 2011-2015), Château Lanessan (2010)</dd>
-                                    </p>
-                                    <p> 
-                                        <dt>Stagiaire assistant commercial:</dt>
-                                        <dd>Stagiaire dans l'entreprise Foerstner Frères dans laqu'elle j'ai pu réaliser des devis, effectuer des commandes auprès des fournisseurs et participer à la refonte de la charte graphique</dd>
-                                    </p>
-                        <p class="uk-text-lead uk-text-center">Mon parcours en quelques lignes</p>
+                                    <dt>Interimaire Adecco :</dt> 
+                                    <dd>Manutentionnaire au Théâtre Chaillot (2017-2018) et au magasin Le Bon Marché (2018), mise en rayon Metro (2018) et Casa France (2017)</dd>
+                                </p>
+                                <p> 
+                                    <dt>Stagiaire assistant commercial:</dt>
+                                    <dd>Stagiaire dans l'entreprise Foerstner Frères dans laqu'elle j'ai pu réaliser des devis, effectuer des commandes auprès des fournisseurs et participer à la refonte de la charte graphique (8 semaines en 2016 et 8 semaines en 2017 )</dd>
+                                </p>
+                                <p>
+                                    <dt>Saisonnier viticole :</dt>
+                                    <dd>Chateau Gruaud-Larose (2016-2017), Château Devise d’Ardilley (de 2011-2015), Château Lanessan (2010)</dd>
+                                </p>
+                                    <p class="uk-text-lead uk-text-center">Mon parcours en quelques lignes</p>
                         <p>
                             <p>
-                                <dd>J'ai commencé à travailler sous dérogation à l'âge de 14 en tant que saisonnier viticole, un métier pas facile et que j'ai fais chaque vacances d'été jusqu'à mes 21 ans. Ceci m'a permis de faire mes premiers pas dans le monde du travail, j'ai pû ensuite consolider mon experience en venant seul à Paris où j'ai dû trouver du travail, et c'est là que j'ai touché à divers poste comme manutentionnaire ou bien la mise en rayon
-                                </dd>
+                                J'ai commencé à travailler sous dérogation à l'âge de 14 en tant que saisonnier viticole, un métier pas facile et que j'ai fais chaque vacances d'été jusqu'à mes 21 ans. Ceci m'a permis de faire mes premiers pas dans le monde du travail, j'ai pû ensuite consolider mon experience en venant seul à Paris où j'ai dû trouver du travail, et c'est là que j'ai touché à divers poste comme manutentionnaire ou bien la mise en rayon
                             </p>
                     </article>
         </div>
         <!-- plus sur moi--> 
         <!-- separation --> <hr class="uk-divider-icon">
+        <div id="ancrageWho"></div>
         <div class="placementformation">
                 <article class="uk-article uk-margin-large-left uk-margin-large-right uk-flex-middle ">
                         <h4 class="uk-article-title uk-text-center"><a class="uk-link-reset" href="">Qui suis je</a></h4>
@@ -187,45 +191,46 @@
                                 </p>
                         <p class="uk-text-lead uk-text-center">Mon parcours en quelques lignes</p>
                         <p>
-                                <dd>Ne sachant pas trop vers quelle dommaine m'orienter à mes 16 ans, j'ai décidé de choisir un cursus assez large qui me permettrait de pouvoir travailler dans plusieurs domaines possible. Le fait est qu'après avoir obtenu mon BTS, j'ai ete forcé de me rendre compte que cela ne me plaisait pas. J'ai alors décidé de trouver un travail qui me plairait vraiment, je me suis tous naturellement tourné vers quelque chose qui me passionne depuis que je suis petit, le domaine de l'informatique. J'ai donc trouver une formation intense pour apprendre à pouvoir devenir developpeur web. Dans le cadre de ma formation, je cherche un stage pour pouvoir mettre à l'epreuve mes nouvelles competences et en apprendre plus encore. Les differents travaux que j'ai pu effectuer et qui sont detaillés dans mon cv me seront très utile. Ils m'ont permis d'être assidu, ponctuel mais surtout autonome.</dd>
+                            Ne sachant pas trop vers quelle dommaine m'orienter à mes 16 ans, j'ai décidé de choisir un cursus assez large qui me permettrait de pouvoir travailler dans plusieurs domaines possible. Le fait est qu'après avoir obtenu mon BTS, j'ai ete forcé de me rendre compte que cela ne me plaisait pas. J'ai alors décidé de trouver un travail qui me plairait vraiment, je me suis tous naturellement tourné vers quelque chose qui me passionne depuis que je suis petit, le domaine de l'informatique. J'ai donc trouver une formation intense pour apprendre à pouvoir devenir developpeur web. Dans le cadre de ma formation, je cherche un stage pour pouvoir mettre à l'epreuve mes nouvelles competences et en apprendre plus encore. Les differents travaux que j'ai pu effectuer et qui sont detaillés dans mon cv me seront très utile. Ils m'ont permis d'être assidu, ponctuel mais surtout autonome.
                             </p>
                             <p class="uk-text-lead uk-text-center">Mes loisirs</p>   
-                                <dd>Cinema (top3: seigneur des anneaux, harry potter, le loup de wallstreet), serie (Vikings, breaking bad, Game of Thrones, Lost..), jeux videos (The witcher, red dead redemption, assassin's creed), musique (rap, funk), montage video et passionné d'histoire (Epoque medieval, grèce antique, epoque romaine, epoque egyptienne)</dd>
+                                <p>Cinema (top3: seigneur des anneaux, harry potter, le loup de wallstreet), serie (Vikings, breaking bad, Game of Thrones, Lost..), jeux videos (The witcher, red dead redemption, assassin's creed), musique (rap, funk), montage video et passionné d'histoire (Epoque medieval, grèce antique, epoque romaine, epoque egyptienne)</p>
                             </p>
                     </article>
         </div>
         <!-- separation --> 
         <!-- plus sur moi--> <hr class="uk-divider-icon">
         <div class="placementformation">
+            <div id="ancrange"></div>
                 <article class="uk-article uk-margin-large-left uk-margin-large-right uk-flex-middle ">
                         <h4 class="uk-article-title uk-text-center"><a class="uk-link-reset" href="">Contact</a></h4>
                         <p class="uk-text-lead uk-text-center">Mes reseaux</p>
                         <p class="uk-animation-scale-up"><p>
-                                <!-- <p>
-                                    <dt>-Email :</dt>
-                                    <dd>Zambib@hotmail.fr</dd>
-                                </p>
-                                <p> 
-                                    <dt>-linkedin :</dt>
-                                    <dd> <a href="https://www.linkedin.com/in/yassine-zambib-2bb371119/?originalSubdomain=fr" target="_blank">Mon profil</a></dd>
-                                </p> -->
-
-                                <div class=" divCard uk-card uk-card-default uk-card-hover uk-box-shadow-small">
+                                <div class=" divCard uk-card uk-card-default uk-card-hover uk-box-shadow-small"id="marginLeftCard">
                                         <div class="uk-card-media-top">
                                         </div>
                                         <div class="uk-card-body">
-                                            <p class="uk-card-title"><a href="pages/creations/tropical-island.html" class="uk-link-heading"> Email :</a></p>
-                                            <p>Zambib</p>
+                                            <img class="tailleimgcard" src="img/logoMail.png" alt="">
                                         </div>
-                                    </div>
+                                </div>
+                                <a href="https://www.linkedin.com/in/yassine-zambib-2bb371119/" target="_blank">
                                     <div class="uk-card uk-card-default uk-card-hover uk-box-shadow-small">
                                             <div class="uk-card-media-top">
                                             </div>
                                             <div class="uk-card-body">
-                                                <p class="uk-card-title"><a href="pages/creations/tropical-island.html" class="uk-link-heading">linkedin</a></p>
-                                                <p>Mon profil</p>
+                                                <img class="tailleimgcard" src="img/logolinkedin.png" alt="">
                                             </div>
-                                        </div>
+                                    </div>
+                                </a>
+                                <a href="https://github.com/yassinezb" target="_blank">
+                                     <div class="uk-card uk-card-default uk-card-hover uk-box-shadow-small">
+                                                <div class="uk-card-media-top">
+                                                </div>
+                                                <div class="uk-card-body">
+                                                    <img class="tailleimgcardGit" src="img/GitHub-Logo.png" alt="">
+                                                </div>
+                                    </div>
+                                </a>
                     </article>
         </div>
         <hr class="uk-divider-small">

@@ -1,10 +1,24 @@
+@font-face {
+	font-family: "police";
+	src: url('police/ZCOOLQingKeHuangYou-Regular.ttf');
+}
+
 /* body */
 
 body {
-    background: rgb(243, 243, 243);
     height: 100%;
     width: 100vw;
-    overflow-x: hidden
+    overflow-x: hidden;
+    font-family: "police";
+}
+
+/* video */
+
+video {
+    position: fixed;
+    z-index: -100;
+    height: 100%;
+    width: 100%;
 }
 
 /* navbar */
@@ -27,26 +41,38 @@ body {
     border-bottom: solid 1px rgb(172, 172, 172);
     }
 
+/* presentation */
+
+span {
+    display: flex;
+    justify-content: center;
+}
+
 /* article */
+
 
 .uk-article {
     margin-bottom: 120px;
+    font-family: "police";
+    font-size: 1.5em;
 }
 
 p.uk-animation-scale-up {
-    color: rgb(17, 17, 17);
-}
+    color: rgb(63, 63, 63);}
 
 #placementarticle {
     margin-top: 100px;
 }
 
 h1, h2, h3, h4 p {
-    color: rgb(0, 0, 0)
+    color: rgb(117, 117, 117);
+    font-family: "police";
 }
 
 .uk-article-title {
-    color: rgb(0, 0, 0);
+    color: rgb(37, 37, 37);
+    font-size: 3em;
+    font-family: "police";
 }
 
 .textecentrer {
@@ -66,12 +92,15 @@ div.placementSlider {
 /* separation */
 hr.uk-divider-icon {
     margin-top: 100px;
+    color: black;
 }
 
 /* partie formation */
 
 p.uk-text-lead {
-    color: rgb(0, 0, 0);
+    color: rgb(117, 117, 117);
+    font-family: "police";
+    font-size: 1.5em;
 }
 
 .placementformation {
@@ -81,22 +110,41 @@ p.uk-text-lead {
 dt {
     margin-bottom: 5px;
     font-size: 1.1em;
-    color: rgb(0, 0, 0);
+    color: rgb(54, 54, 54);
 }
 
 dd {
     margin-bottom: 30px;
     font-size: 1em;
-    color: rgb(37, 37, 37)
+    color: rgb(117, 117, 117);
+    width: 600px;
 }
 
-/* cards */
+/* competences */
 
-.uk-card {
-    width: 300px;
-    height: 200px;
+.imgLogo {
+    height: 60px;
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+.imgLogoJS {
+    height: 75px;
+    width: 75px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imgLogoGIT {
+    height: 60px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 /* barre before footer */
 
@@ -105,13 +153,36 @@ hr.uk-divider-small {
     justify-content: center;
 }
 
-
-/* card */
+/* cards */
 
 .uk-card {
+    width: 300px;
+    height: 200px;
     display: inline-block;
-    margin-left: 200px;
     margin-top: 50px;
+}
+
+.uk-card-body {
+    display: flex;
+    justify-items: center;
+}
+
+.tailleimgcard {
+    width: 90px;
+    height: 90px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.tailleimgcardGit {
+    width: 110px;
+    height: 65px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+#marginLeftCard {
+    margin-left: 100px;
 }
 
 /* footer */
