@@ -44,8 +44,8 @@ video {
 /* presentation */
 
 span {
-    display: flex;
-    justify-content: center;
+    color: blue;
+    font-size: 0.8em;
 }
 
 /* article */
@@ -54,7 +54,7 @@ span {
 .uk-article {
     margin-bottom: 120px;
     font-family: "police";
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 p.uk-animation-scale-up {
@@ -89,6 +89,21 @@ div.placementSlider {
     border: solid black 1px;
 }
 
+/* listage */
+
+dt {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: rgb(54, 54, 54);
+}
+
+dd {
+    margin-bottom: 30px;
+    font-size: 1em;
+    color: rgb(117, 117, 117);
+    width: 700px;
+}
+
 /* separation */
 hr.uk-divider-icon {
     margin-top: 100px;
@@ -107,18 +122,6 @@ p.uk-text-lead {
     margin-top: 50px;
 }
 
-dt {
-    margin-bottom: 5px;
-    font-size: 1.1em;
-    color: rgb(54, 54, 54);
-}
-
-dd {
-    margin-bottom: 30px;
-    font-size: 1em;
-    color: rgb(117, 117, 117);
-    width: 600px;
-}
 
 /* competences */
 
@@ -191,4 +194,20 @@ footer p {
     text-align: center;
     color: grey;
     margin: 60px auto;
+    font-size: 1.3em;
+}
+
+@media only screen and (max-width: 991px) {
+
+    body {
+        background-image: url(fondmobile.png);
+        height: 100%;
+        width: 100vw;
+        overflow-x: hidden;
+        position: fixed;
+    }
+
+    video {
+        display: none;
+    }
 }
