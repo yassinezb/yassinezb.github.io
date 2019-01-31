@@ -48,14 +48,6 @@ span {
     font-size: 0.8em;
 }
 
-#centrerTextPresentation {
-    display: flex;
-    justify-content: center;
-    color: rgb(63, 63, 63);
-    font-size: 1em;
-    font-family: "police"
-}
-
 /* article */
 
 
@@ -66,7 +58,10 @@ span {
 }
 
 p.uk-animation-scale-up {
-    color: rgb(63, 63, 63);}
+    color: rgb(63, 63, 63);
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 #placementarticle {
     margin-top: 100px;
