@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Generateur</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="mainGenerateur.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.26/css/uikit.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.26/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.26/js/uikit-icons.min.js"></script>
+        <script src="mainGenerateur.js"></script>
+    </head>
+    <body>
+       <main>
+            <section id="section1">
+                <img id="imgCard" src="img cartes1/player1.png" alt="image de la carte">
+                <div class="placementCartes">
+                    <div class="uk-container">
+                        <p class="uk-text-center">Statistiques:</p>
+                        <p id="attack" class="uk-text-center">Niveau de codage:</p>
+                        <p id="defense" class="uk-text-center">Nombres d'absences :</p>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="uk-overlay uk-position-center">
+                <div id="separateur">
+                    <img src="background/vslogo.png" alt="">
+                </div>
+            </div>  
+            <section id="section2" class="uk-position-top-right">
+                <img id="imgCard2" src="img cartes2/player2.png" alt="image de la carte">
+                <div class="placementCartes2">
+                    <div class="uk-container">
+                        <p class="uk-text-center">Statistiques:</p>
+                        <p id="attack2" class="uk-text-center">Niveau de codage:</p>
+                        <p id="defense2" class="uk-text-center">Nombres d'absence:</p>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="uk-flex uk-flex-center">
+                <button class="uk-button uk-button-secondary" onclick="generate()"><span>Generer un nouveau combat</span></button>
+            </div>
+            <div class="uk-flex uk-flex-center">
+                <button id="bouton" class="uk-button uk-button-secondary uk-position-top-center" onclick="fight()"><span>FIGHT!</span></button> 
+            </div>
+            <div id="sword1">
+            </div>
+    </main>
+    </body>
+</html>
