@@ -235,6 +235,10 @@ footer p {
         display: none;
     }
 
+    .uk-overlay {
+        display: none;
+    }
+
     /* navbar */
     .uk-navbar-container {
         background-attachment: fixed;
