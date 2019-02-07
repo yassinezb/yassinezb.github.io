@@ -237,7 +237,7 @@ footer p {
 
     /* navbar */
     .uk-navbar-container {
-        position: fixed;
+        background-attachment: fixed;
     }
 
     dd {
