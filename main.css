@@ -204,17 +204,39 @@ footer p {
     font-size: 1.3em;
 }
 
-/* @media only screen and (max-width: 991px) {
+@media only screen and (max-width: 700px) {
 
     body {
         background-image: url(fondmobile.png);
         height: 100%;
         width: 100vw;
         overflow-x: hidden;
-        position: fixed;
     }
 
     video {
         display: none;
     }
-} */
+    /* presentation article */
+
+    p.uk-animation-scale-up {
+        color: rgb(63, 63, 63);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* slider */
+
+    .uk-margin-remove {
+        display: none;
+    }
+
+    /* navbar */
+    .uk-navbar-container {
+        position: fixed;
+    }
+
+    dd {
+        font-size: 1em;
+        color: rgb(100, 100, 100);
+        width: 250px;    }
+}
